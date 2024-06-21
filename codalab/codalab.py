@@ -107,6 +107,4 @@ class CodaLab:
         }
 
         res = self.session.post(self.submit_url3, params=params, headers=self.headers, data=data)
-        print(res)
-
-        
+        print(res.text)
